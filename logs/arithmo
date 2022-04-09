@@ -1,0 +1,396 @@
+0 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory  - Using SLF4J as the default logging framework
+2 [main] DEBUG io.netty.util.ResourceLeakDetector  - -Dio.netty.leakDetection.level: simple
+2 [main] DEBUG io.netty.util.ResourceLeakDetector  - -Dio.netty.leakDetection.targetRecords: 4
+11 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap  - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+11 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap  - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+16 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup  - -Dio.netty.eventLoopThreads: 24
+33 [main] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.noKeySetOptimization: false
+33 [main] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.selectorAutoRebuildThreshold: 512
+44 [main] DEBUG io.netty.util.internal.PlatformDependent  - Platform: MacOS
+45 [main] DEBUG io.netty.util.internal.PlatformDependent0  - -Dio.netty.noUnsafe: false
+45 [main] DEBUG io.netty.util.internal.PlatformDependent0  - Java version: 8
+46 [main] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.theUnsafe: available
+46 [main] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.copyMemory: available
+46 [main] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Buffer.address: available
+47 [main] DEBUG io.netty.util.internal.PlatformDependent0  - direct buffer constructor: available
+47 [main] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Bits.unaligned: available, true
+47 [main] DEBUG io.netty.util.internal.PlatformDependent0  - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+47 [main] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.DirectByteBuffer.<init>(long, int): available
+48 [main] DEBUG io.netty.util.internal.PlatformDependent  - sun.misc.Unsafe: available
+48 [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.tmpdir: /var/folders/1x/_tg4pqcs6z73m635531370pw0000gp/T (java.io.tmpdir)
+48 [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+49 [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.maxDirectMemory: 3817865216 bytes
+49 [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+49 [main] DEBUG io.netty.util.internal.CleanerJava6  - java.nio.ByteBuffer.cleaner(): available
+49 [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noPreferDirect: false
+55 [main] DEBUG io.netty.util.internal.PlatformDependent  - org.jctools-core.MpscChunkedArrayQueue: available
+81 [main] DEBUG io.netty.resolver.dns.DefaultDnsServerAddressStreamProvider  - Default DNS servers: [/8.8.8.8:53] (sun.net.dns.ResolverConfiguration)
+87 [main] DEBUG io.netty.util.NetUtil  - -Djava.net.preferIPv4Stack: false
+87 [main] DEBUG io.netty.util.NetUtil  - -Djava.net.preferIPv6Addresses: false
+90 [main] DEBUG io.netty.util.NetUtil  - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+91 [main] DEBUG io.netty.util.NetUtil  - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+365 [vert.x-eventloop-thread-0] DEBUG com.pp.arithmo.provider.ExcelProvider  - {
+  "problems": [
+    {
+      "problemId": "1",
+      "lhs": "5 + 5",
+      "pType": "0",
+      "level": "0",
+      "lhsvalue": "10",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "2",
+      "lhs": "10 + 5",
+      "pType": "0",
+      "level": "0",
+      "lhsvalue": "15",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "3",
+      "lhs": "2 + 3",
+      "pType": "0",
+      "level": "0",
+      "lhsvalue": "5",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "4",
+      "lhs": "3 + 5",
+      "pType": "0",
+      "level": "0",
+      "lhsvalue": "8",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "5",
+      "lhs": "9 + 5",
+      "pType": "0",
+      "level": "0",
+      "lhsvalue": "14",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "6",
+      "lhs": "15 - 5",
+      "pType": "1",
+      "level": "0",
+      "lhsvalue": "10",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "7",
+      "lhs": "20 -  5",
+      "pType": "1",
+      "level": "0",
+      "lhsvalue": "15",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "8",
+      "lhs": "10 - 7",
+      "pType": "1",
+      "level": "0",
+      "lhsvalue": "3",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "9",
+      "lhs": "50 - 15",
+      "pType": "1",
+      "level": "0",
+      "lhsvalue": "35",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "10",
+      "lhs": "250 - 60",
+      "pType": "1",
+      "level": "0",
+      "lhsvalue": "190",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "11",
+      "lhs": "15 x 5",
+      "pType": "2",
+      "level": "0",
+      "lhsvalue": "75",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "12",
+      "lhs": "20 x 5",
+      "pType": "2",
+      "level": "0",
+      "lhsvalue": "100",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "13",
+      "lhs": "10 x 7",
+      "pType": "2",
+      "level": "0",
+      "lhsvalue": "70",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "14",
+      "lhs": "50 x 1.5",
+      "pType": "2",
+      "level": "0",
+      "lhsvalue": "75",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "15",
+      "lhs": "250 / 50",
+      "pType": "3",
+      "level": "0",
+      "lhsvalue": "5",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "16",
+      "lhs": "500 / 4",
+      "pType": "3",
+      "level": "0",
+      "lhsvalue": "125",
+      "lhsunit": "",
+      "active": "1"
+    }
+  ]
+}
+367 [vert.x-eventloop-thread-0] DEBUG com.pp.arithmo.verticles.MainVerticle  - Successfully started...
+388 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numHeapArenas: 24
+388 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numDirectArenas: 24
+388 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.pageSize: 8192
+388 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxOrder: 11
+388 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.chunkSize: 16777216
+388 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.tinyCacheSize: 512
+388 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.smallCacheSize: 256
+388 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.normalCacheSize: 64
+388 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+388 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.cacheTrimInterval: 8192
+388 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+388 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.useCacheForAllThreads: true
+388 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+5440 [vert.x-eventloop-thread-1] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.processId: 72369 (auto-detected)
+5444 [vert.x-eventloop-thread-1] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+5465 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.allocator.type: pooled
+5465 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.threadLocalDirectBufferSize: 0
+5466 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+0 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory  - Using SLF4J as the default logging framework
+2 [main] DEBUG io.netty.util.ResourceLeakDetector  - -Dio.netty.leakDetection.level: simple
+2 [main] DEBUG io.netty.util.ResourceLeakDetector  - -Dio.netty.leakDetection.targetRecords: 4
+9 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap  - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+9 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap  - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+13 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup  - -Dio.netty.eventLoopThreads: 24
+29 [main] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.noKeySetOptimization: false
+29 [main] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.selectorAutoRebuildThreshold: 512
+39 [main] DEBUG io.netty.util.internal.PlatformDependent  - Platform: MacOS
+40 [main] DEBUG io.netty.util.internal.PlatformDependent0  - -Dio.netty.noUnsafe: false
+40 [main] DEBUG io.netty.util.internal.PlatformDependent0  - Java version: 8
+41 [main] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.theUnsafe: available
+41 [main] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.copyMemory: available
+41 [main] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Buffer.address: available
+41 [main] DEBUG io.netty.util.internal.PlatformDependent0  - direct buffer constructor: available
+42 [main] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Bits.unaligned: available, true
+42 [main] DEBUG io.netty.util.internal.PlatformDependent0  - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+42 [main] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.DirectByteBuffer.<init>(long, int): available
+42 [main] DEBUG io.netty.util.internal.PlatformDependent  - sun.misc.Unsafe: available
+42 [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.tmpdir: /var/folders/1x/_tg4pqcs6z73m635531370pw0000gp/T (java.io.tmpdir)
+42 [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+43 [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.maxDirectMemory: 3817865216 bytes
+43 [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+44 [main] DEBUG io.netty.util.internal.CleanerJava6  - java.nio.ByteBuffer.cleaner(): available
+44 [main] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noPreferDirect: false
+49 [main] DEBUG io.netty.util.internal.PlatformDependent  - org.jctools-core.MpscChunkedArrayQueue: available
+65 [main] DEBUG io.netty.resolver.dns.DefaultDnsServerAddressStreamProvider  - Default DNS servers: [/8.8.8.8:53] (sun.net.dns.ResolverConfiguration)
+69 [main] DEBUG io.netty.util.NetUtil  - -Djava.net.preferIPv4Stack: false
+69 [main] DEBUG io.netty.util.NetUtil  - -Djava.net.preferIPv6Addresses: false
+73 [main] DEBUG io.netty.util.NetUtil  - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+73 [main] DEBUG io.netty.util.NetUtil  - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+370 [vert.x-eventloop-thread-0] DEBUG com.pp.arithmo.provider.ExcelProvider  - {
+  "problems": [
+    {
+      "problemId": "1",
+      "lhs": "5 + 5",
+      "pType": "0",
+      "level": "0",
+      "lhsvalue": "10",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "2",
+      "lhs": "10 + 5",
+      "pType": "0",
+      "level": "0",
+      "lhsvalue": "15",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "3",
+      "lhs": "2 + 3",
+      "pType": "0",
+      "level": "0",
+      "lhsvalue": "5",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "4",
+      "lhs": "3 + 5",
+      "pType": "0",
+      "level": "0",
+      "lhsvalue": "8",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "5",
+      "lhs": "9 + 5",
+      "pType": "0",
+      "level": "0",
+      "lhsvalue": "14",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "6",
+      "lhs": "15 - 5",
+      "pType": "1",
+      "level": "0",
+      "lhsvalue": "10",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "7",
+      "lhs": "20 -  5",
+      "pType": "1",
+      "level": "0",
+      "lhsvalue": "15",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "8",
+      "lhs": "10 - 7",
+      "pType": "1",
+      "level": "0",
+      "lhsvalue": "3",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "9",
+      "lhs": "50 - 15",
+      "pType": "1",
+      "level": "0",
+      "lhsvalue": "35",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "10",
+      "lhs": "250 - 60",
+      "pType": "1",
+      "level": "0",
+      "lhsvalue": "190",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "11",
+      "lhs": "15 x 5",
+      "pType": "2",
+      "level": "0",
+      "lhsvalue": "75",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "12",
+      "lhs": "20 x 5",
+      "pType": "2",
+      "level": "0",
+      "lhsvalue": "100",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "13",
+      "lhs": "10 x 7",
+      "pType": "2",
+      "level": "0",
+      "lhsvalue": "70",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "14",
+      "lhs": "50 x 1.5",
+      "pType": "2",
+      "level": "0",
+      "lhsvalue": "75",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "15",
+      "lhs": "250 / 50",
+      "pType": "3",
+      "level": "0",
+      "lhsvalue": "5",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "16",
+      "lhs": "500 / 4",
+      "pType": "3",
+      "level": "0",
+      "lhsvalue": "125",
+      "lhsunit": "",
+      "active": "1"
+    }
+  ]
+}
+373 [vert.x-eventloop-thread-0] DEBUG com.pp.arithmo.verticles.MainVerticle  - Successfully started...
+380 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numHeapArenas: 24
+380 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numDirectArenas: 24
+380 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.pageSize: 8192
+380 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxOrder: 11
+380 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.chunkSize: 16777216
+380 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.tinyCacheSize: 512
+381 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.smallCacheSize: 256
+381 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.normalCacheSize: 64
+381 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+381 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.cacheTrimInterval: 8192
+381 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+381 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.useCacheForAllThreads: true
+381 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+5428 [vert.x-eventloop-thread-1] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.processId: 72423 (auto-detected)
+5430 [vert.x-eventloop-thread-1] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+5470 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.allocator.type: pooled
+5470 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.threadLocalDirectBufferSize: 0
+5470 [vert.x-eventloop-thread-1] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.maxThreadLocalCharBufferSize: 16384
