@@ -1,0 +1,148 @@
+{
+  "problems": [
+    {
+      "problemId": "1",
+      "lhs": "5 + 5",
+      "pType": "0",
+      "level": "0",
+      "lhsvalue": "10",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "2",
+      "lhs": "10 + 5",
+      "pType": "0",
+      "level": "0",
+      "lhsvalue": "15",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "3",
+      "lhs": "2 + 3",
+      "pType": "0",
+      "level": "0",
+      "lhsvalue": "5",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "4",
+      "lhs": "3 + 5",
+      "pType": "0",
+      "level": "0",
+      "lhsvalue": "8",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "5",
+      "lhs": "9 + 5",
+      "pType": "0",
+      "level": "0",
+      "lhsvalue": "14",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "6",
+      "lhs": "15 - 5",
+      "pType": "1",
+      "level": "0",
+      "lhsvalue": "10",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "7",
+      "lhs": "20 -  5",
+      "pType": "1",
+      "level": "0",
+      "lhsvalue": "15",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "8",
+      "lhs": "10 - 7",
+      "pType": "1",
+      "level": "0",
+      "lhsvalue": "3",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "9",
+      "lhs": "50 - 15",
+      "pType": "1",
+      "level": "0",
+      "lhsvalue": "35",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "10",
+      "lhs": "250 - 60",
+      "pType": "1",
+      "level": "0",
+      "lhsvalue": "190",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "11",
+      "lhs": "15 x 5",
+      "pType": "2",
+      "level": "0",
+      "lhsvalue": "75",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "12",
+      "lhs": "20 x 5",
+      "pType": "2",
+      "level": "0",
+      "lhsvalue": "100",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "13",
+      "lhs": "10 x 7",
+      "pType": "2",
+      "level": "0",
+      "lhsvalue": "70",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "14",
+      "lhs": "50 x 1.5",
+      "pType": "2",
+      "level": "0",
+      "lhsvalue": "75",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "15",
+      "lhs": "250 / 50",
+      "pType": "3",
+      "level": "0",
+      "lhsvalue": "5",
+      "lhsunit": "",
+      "active": "1"
+    },
+    {
+      "problemId": "16",
+      "lhs": "500 / 4",
+      "pType": "3",
+      "level": "0",
+      "lhsvalue": "125",
+      "lhsunit": "",
+      "active": "1"
+    }
+  ]
+}

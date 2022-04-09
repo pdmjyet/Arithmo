@@ -1,0 +1,30 @@
+<assembly>
+	<id>bundle</id>
+	<formats>
+		<format>tar.gz</format>
+	</formats>
+	<includeBaseDirectory>false</includeBaseDirectory>
+	
+	<fileSets>
+		<fileSet>
+			<directory>target/</directory>
+			<outputDirectory>.</outputDirectory>
+			<includes>
+				<include>*-fat.jar</include>
+			</includes>
+		</fileSet>
+		<fileSet>
+			<directory>src/main/resources/</directory>
+			<outputDirectory>.</outputDirectory>
+			<includes>
+				<include>*.json</include>
+			</includes>
+		</fileSet>
+		<fileSet>
+			<includes>
+				<include>*.config</include>
+			</includes>
+		</fileSet>
+	</fileSets>	
+
+</assembly>

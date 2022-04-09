@@ -1,0 +1,58 @@
+{
+    "collections": [
+        {
+            "id": "1",
+            "cType": "0",
+            "pType": "0",
+            "name": "Simple Additions"
+        },
+        {
+            "id": "2",
+            "cType": "0",
+            "pType": "1",
+            "name": "Simple Subtraction problems"
+        },
+        {
+            "id": "3",
+            "cType": "0",
+            "pType": "2",
+            "name": "Simple Multiplications"
+        },
+        {
+            "id": "4",
+            "cType": "0",
+            "pType": "3",
+            "name": "Simple Divisions"
+        },
+        {
+            "id": "5",
+            "cType": "",
+            "pType": "0",
+            "name": "Additions"
+        },
+        {
+            "id": "6",
+            "cType": "",
+            "pType": "1",
+            "name": "Subtractions"
+        },
+        {
+            "id": "7",
+            "cType": "",
+            "pType": "2",
+            "name": "Multiplications"
+        },
+        {
+            "id": "8",
+            "cType": "",
+            "pType": "3",
+            "name": "Divisions"
+        },
+        {
+            "id": "9",
+            "cType": "",
+            "pType": "4",
+            "name": "Mix"
+        }
+    ]
+}
